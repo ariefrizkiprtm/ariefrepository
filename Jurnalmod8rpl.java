@@ -13,6 +13,8 @@ public class Jurnalmod8rpl {
         for(int i=1; i<=number; i++){
             System.out.print(fibo(i) +" ");
         }
+        int yui=i+i;
+        System.out.println("\n"+yui);
     } 
      public static int fibo(int number){
         if(number == 1 || number == 2){
