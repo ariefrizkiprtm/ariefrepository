@@ -10,7 +10,8 @@ public class Jurnalmod8rpl {
         int number = new Scanner(System.in).nextInt();
         
         System.out.println("\n\nAngka fibonacci hanya sampai " + number +" numbers : ");
-        for(int i=1; i<=number; i++){
+        for(int i=number; i>=1; i++){
+            System.out.print(fibo(i) +" ");
             System.out.print(fibo(i) +" ");
         }
     } 
